@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+        <title>Buddy Racer</title>
+        <link rel="stylesheet" type="text/css" href="gamestyle.css">
+    </head>
+    <body>
+		<div id="preloader"></div>
+        <div id="swiffycontainer">
+			<div id="submit-score">
+				<div>
+					<label for="name-input">ENTER NAME</label>
+					<input type="text" class="name-input" id="name-input" value="Anonymous" maxlength="18" data-entryId = "1"/>
+				</div>
+				<div class="btn">Submit</div>
+			</div>
+			<div id="src-code">
+				<section>
+					<h1>About Buddy Racer</h1>
+					<div>
+						<p>Buddy Racer is a multi-platform and cross-browser game that explores minimalistic design and resolution independent gameplay. Its design is sleek and utilises landscape and portrait responsive formatting so it is compatible on any device. It uses a compact JSON representation of the game animation, which is rendered using SVG, HTML5, CSS3 and Javascript. It is published and distributed in the following formats:</p><!--
+						--><ol>
+							<li>
+								Browser game
+							</li>
+							<li>
+								Web app
+							</li>
+							<li>
+								Android APK file (including Java wrapper with Admob Banner and Interstitial Ads and Google Analytics Integration).
+							</li>
+							<li>
+								SWF output
+							</li>
+						</ol><!--
+						--><p>Source files are provided for each one of them.<br>You can fork it on Github:</br><a href="https://github.com/dondido/buddyracer" target="_blank">https://github.com/dondido/buddyracer</a></p>
+					</div>
+				</section>
+				<div class="close-btn btn">Close</div>
+			</div>
+			<div id="scoreboard">
+				<div class="list">
+					<table>
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<td>
+									<div class='checkbox'>
+										<div></div>
+									</div>
+								</td>
+								<td>Game</td>
+								<td>Name</td>
+								<td>Date</td>
+								<td>Score</td>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+				<div class="scoreboard-btns">
+					<div class="clear-btn btn">Delete</div>
+					<div class="close-btn btn">Close</div>
+				</div>
+			</div>
+        </div>
+        <audio id="ingameSnd" preload>
+            <source src="ingamesnd.mp3">
+        </audio>
+        <audio id="count1" preload>
+            <source src="count1.mp3">
+        </audio>
+        <audio id="count2" preload>
+            <source src="count2.mp3">
+        </audio>
+        <audio id="count3" preload>
+            <source src="count3.mp3">
+        </audio>
+        <audio id="sndGo" preload>
+            <source src="sndgo.mp3">
+        </audio>
+        <script async src="runtimeCustom52.js"></script>
+        <script async src="swiffyobject.js"></script>
+        <script async src="init.js"></script>
+    </body>
+</html>
