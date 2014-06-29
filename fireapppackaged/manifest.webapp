@@ -1,0 +1,22 @@
+{
+  "name": "Buddy Racer",
+  "description": "Pass obstacles that racing track has to offer and make sure not to flip the bike around/",
+  "version": "1",
+  "icons": {
+    "32": "/icons/32x32.png",
+    "60": "/icons/60x60.png",
+    "90": "/icons/90x90.png",
+    "120": "/icons/120x120.png",
+    "128": "/icons/128x128.png",
+    "256": "/icons/256x256.png",
+    "512": "/icons/512x512.png"
+  },
+  "launch_path": "/index.html",
+  "installs_allowed_from": [
+    "*"
+  ],
+  "developer": {
+    "name": "Dian Dimitrov",
+    "url": "http://publicgamelibrary.com"
+  }
+}

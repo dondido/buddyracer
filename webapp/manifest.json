@@ -1,0 +1,18 @@
+{
+  "manifest_version":2,
+  "name":"Buddy Racer",
+  "description":"Pass obstacles that racing track has to offer and make sure not to flip the bike around/",
+  "version":"1",
+  "icons":{
+    "128":"128x128.png"
+  },
+  "app":{
+    "launch":{
+      "web_url":"http://buddyracer.publicgamelibrary.com/webapp/index.html"
+    }
+  },
+  "permissions":[
+    "unlimitedStorage"
+  ],
+  "offline_enabled":true
+}
